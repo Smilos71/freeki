@@ -7,63 +7,70 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background-color: #f8f9fa;
         }
 
         header {
-            background: #333;
+            background: #005cbf;
             color: #fff;
             padding: 10px 0;
             text-align: center;
         }
 
-        nav ul {
-            list-style: none;
-            padding: 0;
-        }
-
-        nav ul li {
-            display: inline;
-            margin: 0 15px;
+        nav {
+            margin: 20px 0;
+            text-align: center;
         }
 
         nav a {
-            color: #fff;
+            margin: 0 15px;
+            color: #005cbf;
             text-decoration: none;
+            font-weight: bold;
         }
 
-        main {
+        .container {
+            max-width: 1200px;
+            margin: auto;
             padding: 20px;
         }
 
+        h1, h2, h3 {
+            color: #005cbf;
+        }
+
         section {
-            margin: 20px 0;
+            margin-bottom: 30px;
             padding: 20px;
             background: #fff;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
 
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            color: #fff;
-            background: #5cb85c;
-            text-decoration: none;
-            border-radius: 5px;
-        }
-
         footer {
             text-align: center;
             padding: 10px 0;
-            background: #333;
+            background: #005cbf;
             color: #fff;
             position: relative;
             bottom: 0;
             width: 100%;
+        }
+
+        .button {
+            display: inline-block;
+            padding: 10px 15px;
+            background: #28a745;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        .button:hover {
+            background: #218838;
         }
     </style>
 </head>
@@ -72,15 +79,13 @@
         <h1>Vítejte na FreeKi</h1>
         <p>Otevřená platforma pro sdílení znalostí a spolupráci.</p>
         <nav>
-            <ul>
-                <li><a href="#about">O nás</a></li>
-                <li><a href="#contribute">Přispět</a></li>
-                <li><a href="#topics">Témata</a></li>
-            </ul>
+            <a href="#about">O nás</a>
+            <a href="#contribute">Přispět</a>
+            <a href="#topics">Témata</a>
         </nav>
     </header>
 
-    <main>
+    <div class="container">
         <section id="about">
             <h2>O nás</h2>
             <p>FreeKi je wiki zaměřená na komunitu, kde každý může přidávat a upravovat obsah. Naším cílem je vytvářet otevřenou a dostupnou platformu pro sdílení znalostí.</p>
@@ -101,10 +106,11 @@
                 <li><a href="topic3.html">Téma 3</a></li>
             </ul>
         </section>
-    </main>
+    </div>
 
     <footer>
         <p>&copy; 2024 FreeKi. Všechna práva vyhrazena.</p>
     </footer>
 </body>
 </html>
+
