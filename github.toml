@@ -1,0 +1,4 @@
+[[redirects]]
+  from = "/*"
+  to = "https://smilosweb.netlify.app/404.html"
+  status = 404
