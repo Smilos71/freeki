@@ -4,17 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FreeKi - Otevřená Wiki</title>
-     <link rel="shortcut icon" href="https://i.ibb.co/H4C5JSh/menu.png" type="image/x-icon">
+    <link rel="shortcut icon" href="https://i.ibb.co/H4C5JSh/menu.png" type="image/x-icon">
     <style>
         body {
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #ffffff; /* Bílé pozadí */
+            background-color: #ffffff;
         }
 
         header {
-            background: #ffecb3; /* Světlá oranžová */
+            background: #ffecb3;
             color: #333;
             padding: 10px;
             display: flex;
@@ -23,11 +23,11 @@
         }
 
         header img {
-            height: 40px; /* Velikost loga */
+            height: 40px;
         }
 
         h1 {
-            margin: 0 15px; /* Mezera mezi logem a názvem */
+            margin: 0 15px;
         }
 
         nav {
@@ -52,23 +52,23 @@
         }
 
         h1, h2, h3, h4 {
-            color: #ff8c00; /* Tmavší oranžová pro nadpisy */
-            transition: font-size 0.3s ease; /* Přidání efektu přechodu */
+            color: #ff8c00;
+            transition: font-size 0.3s ease;
         }
 
         section {
             margin-bottom: 30px;
             padding: 20px;
-            background: #f9f9f9; /* Světle šedé pozadí pro sekce */
+            background: #f9f9f9;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            transition: height 0.3s ease, padding 0.3s ease; /* Přidání efektu přechodu */
+            transition: height 0.3s ease, padding 0.3s ease;
         }
 
         footer {
             text-align: center;
             padding: 10px 0;
-            background: #ffecb3; /* Světlá oranžová */
+            background: #ffecb3;
             color: #333;
             position: relative;
             bottom: 0;
@@ -89,7 +89,6 @@
             background: #218838;
         }
 
-        /* Styl pro vyhledávací pole */
         .search-bar input[type="text"] {
             padding: 5px;
             font-size: 16px;
@@ -100,7 +99,7 @@
         .search-bar input[type="submit"] {
             padding: 5px 10px;
             font-size: 16px;
-            background: #ff8c00; /* Oranžové pozadí pro tlačítko */
+            background: #ff8c00;
             border: none;
             color: white;
             border-radius: 5px;
@@ -108,17 +107,15 @@
         }
 
         .search-bar input[type="submit"]:hover {
-            background: #e68a00; /* Tmavší oranžová při najetí */
+            background: #e68a00;
         }
 
-        /* Skrytí výsledků, pokud neexistují */
         .hidden {
             display: none;
         }
 
-        /* Upozornění pro prázdný výsledek */
         .no-results {
-            color: red; /* Červená barva pro upozornění */
+            color: red;
             font-weight: bold;
         }
     </style>
@@ -131,21 +128,19 @@
             <input type="text" id="searchInput" placeholder="Hledat...">
             <input type="submit" value="Hledat">
         </form>
-          <nav>
+        <nav>
             <a href="/freeki/index.html">Domů</a>
             <a href="/freeki/new.htm">Nový</a>
-           
         </nav>
     </header>
 
-  
-  <div style="text-align: center; background-color: #ffffff; padding: 10px; border-radius: 5px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); margin: 10px 0; display: flex; align-items: center; justify-content: center;">
-    <div style="width: 100px; height: 50px; margin-right: 10px; border: 1px solid #000;">
-        <div style="background-color: #005cbf; height: 50%;"></div>
-        <div style="background-color: #ffd700; height: 50%;"></div>
+    <div style="text-align: center; background-color: #ffffff; padding: 10px; border-radius: 5px; box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); margin: 10px 0; display: flex; align-items: center; justify-content: center;">
+        <div style="width: 100px; height: 50px; margin-right: 10px; border: 1px solid #000;">
+            <div style="background-color: #005cbf; height: 50%;"></div>
+            <div style="background-color: #ffd700; height: 50%;"></div>
+        </div>
+        <h1 style="font-size: 1.2em; margin: 0;">Stojíme s Ukrajinou!</h1>
     </div>
-    <h1 style="font-size: 1.2em; margin: 0;">Stojíme s Ukrajinou!</h1>
-</div>
 
     <div class="container">
         <section id="about">
@@ -163,13 +158,14 @@
             <h2>Témata</h2>
             <p>Podívejte se na některá populární témata na FreeKi:</p>
             <ul id="topicList">
-               <li><h3><a href="wiki/kocka_domaci.html">Kočka domácí</a></h3></li>
-        <li><h3><a href="wiki/panda_velka.html">Panda velká</a></h3></li>
-              <li><h3><a href="wiki/karel_gott.html">Karel Gott</a></h3></li>
+                <li><h3><a href="wiki/kocka_domaci.html">Kočka domácí</a></h3></li>
+                <li><h3><a href="wiki/panda_velka.html">Panda velká</a></h3></li>
+                <li><h3><a href="wiki/karel_gott.html">Karel Gott</a></h3></li>
                 <li><h3><a href="wiki/minecraft.html">Minecraft</a></h3></li>
-              
-       
-            <div id="noResults" class="hidden no-results">Nenašli jsme žádné výsledky pro vaše hledání.</div> <!-- Upozornění pro prázdný výsledek -->
+                <li><h3><a href="wiki/einstein.html">Albert Einstein</a></h3></li>
+                <li><h3><a href="wiki/vesmir.html">Vesmír</a></h3></li>
+            </ul>
+            <div id="noResults" class="hidden no-results">Nenašli jsme žádné výsledky pro vaše hledání.</div>
         </section>
     </div>
 
@@ -177,16 +173,16 @@
         <p>&copy; 2024 FreeKi. Všechna práva vyhrazena.</p>
     </footer>
 
-
     <script>
+        const originalTopics = Array.from(document.querySelectorAll('#topicList li')).map(li => li.outerHTML);
+
         function searchTopics() {
             const input = document.getElementById('searchInput').value.toLowerCase();
             const topicList = document.getElementById('topicList');
             const topics = topicList.getElementsByTagName('li');
             const aboutSection = document.getElementById('about');
             const contributeSection = document.getElementById('contribute');
-            let sectionShouldBeLarger = false; // Flag pro změnu úrovně nadpisu
-            let hasResults = false; // Flag pro kontrolu, zda existují výsledky
+            let hasResults = false;
 
             // Skrýt sekce "O nás" a "Přispět" při vyhledávání
             if (input !== "") {
@@ -197,40 +193,43 @@
                 contributeSection.classList.remove('hidden');
             }
 
-            for (let i = 0; i < topics.length; i++) {
-                const topicLink = topics[i].querySelector('a');
-                const topicText = topicLink.textContent.toLowerCase();
-                
-                if (topicText.includes(input) && input !== "") {
-                    topics[i].classList.remove('hidden');
+            topicList.innerHTML = ''; // Vymazat seznam témat
+
+            for (let i = 0; i < originalTopics.length; i++) {
+                if (originalTopics[i].toLowerCase().includes(input) && input !== "") {
+                    topicList.innerHTML += originalTopics[i]; // Přidat pouze shodující se témata
                     hasResults = true; // Pokud je nalezeno, nastav flag na true
-                } else {
-                    topics[i].classList.add('hidden');
                 }
             }
 
-            // Změna úrovně nadpisu sekce a velikosti textu, pokud byl nalezen odpovídající text
-            const sectionHeading = document.querySelector('#topics > h2');
-            const sectionText = document.querySelector('#topics > p');
+            // Zobrazit zprávu o prázdném výsledku
+            const noResultsDiv = document.getElementById('noResults');
             if (hasResults) {
-                sectionHeading.outerHTML = `<h1>${sectionHeading.textContent}</h1>`;
-                sectionText.style.fontSize = '1.2em'; // Zvětšení textu v sekci
-                // Zvětšení textu pro všechny nadpisy
-                for (let i = 0; i < topics.length; i++) {
-                    const topicHeading = topics[i].querySelector('h3, h4');
-                    if (topicHeading) {
-                        topicHeading.style.fontSize = '1.2em'; // Zvětšení pro nadpisy
-                    }
-                }
-                document.getElementById('noResults').classList.add('hidden'); // Skrýt zprávu o prázdném výsledku
+                noResultsDiv.classList.add('hidden');
             } else {
-                sectionHeading.outerHTML = `<h2>${sectionHeading.textContent}</h2>`;
-                sectionText.style.fontSize = '1em'; // Vrátit text na původní velikost
-                document.getElementById('noResults').classList.remove('hidden'); // Zobrazit zprávu o prázdném výsledku
+                noResultsDiv.classList.remove('hidden');
             }
 
             return false; // Zabránění standardnímu odeslání formuláře
         }
+
+        // Funkce pro náhodné zobrazení tří témat
+        function showRandomTopics() {
+            const randomTopics = [];
+            const topics = Array.from(document.querySelectorAll('#topicList li'));
+
+            while (randomTopics.length < 3 && topics.length > 0) {
+                const randomIndex = Math.floor(Math.random() * topics.length);
+                randomTopics.push(topics[randomIndex].outerHTML);
+                topics.splice(randomIndex, 1); // Odstranění vybraného tématu
+            }
+
+            const topicList = document.getElementById('topicList');
+            topicList.innerHTML = randomTopics.join(''); // Zobrazit náhodná témata
+        }
+
+        // Zavolání funkce pro náhodné zobrazení témat při načtení stránky
+        window.onload = showRandomTopics;
     </script>
 </body>
 </html>
